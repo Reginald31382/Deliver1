@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 768px){
+#mainContainer{
+	width: auto;
+	height: 150px;
+	margin: auto;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+}
+body {
+	font-family: 'Roboto', sans-serif;
+
+	}
+
+.parent-container-row {
+	display: flex;
+	flex-direction: row;
+	}
+.openStatement{
+	margin-top: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.subject {
+	color: #20a8b4;
+	font-size: 65px;
+	}
+
+.code {
+	color: #ff5c0f;
+	padding-right: 300px;
+	}
+	
+.question {
+	color: #000;
+	font-size: 40px;
+	}
+
+.learn {
+	color: #ff5c0f;
+	}
+	
+img {
+	float: right;
+}
+    
+.topic {
+    margin-top: 100px;
+}
+	
+a 	{
+	text-decoration: none;
+	}
+	
+ul {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between flex-end;
+	align-content: right;
+	justify-content: right;
+	}
+	
+ul a:hover {
+	color: #ff5c0f;
+	}
+	
+ul ol {
+	display: inline;
+	color: #000;
+	font-size: 30px;
+	padding: 10px;
+	margin-left: 50px;
+	}
+	
+ol a {
+	color: #000;
+	}
+	
+.button {
+  background-color: #20a8b4;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 25px;
+  border-radius: 10px;
+  width: auto;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #ff5c0f;
+}
